@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap - Responsive Layour</title>
+    <!--Setting the viewport to be the width of the device and scale is 1 or 100%  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mystyles.css">
+
+</head>
+<div>
+    <h1 align="center">Hello World!</h1>
+    <!-- Include the javascript files for the compiled CSS files -->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</div>
+<br>
+<br>
+<blockquote>
+    <table>
+        <th>The Bootstrap Grid System
+        consists of 12 columns (whole width of the screen)<br>
+         and use of the col-*-X class requires you need to have the sum of the X equal to 12</th>
+        <tr>
+            <td>col-xs-* is for smaller smartphone devices (<768px)</td>
+        </tr>
+        <tr>
+            <td>col-sm-* is for small tablet devices (>= 768x)</td>
+        </tr>
+        <tr>
+            <td>col-md-* is for Desktops/Laptops (>=992 px)</td>
+        </tr>
+        <tr>
+            <td>col-lg-* is for Desktops (>=1200px)</td>
+
+        </tr>
+    </table>
+
+</blockquote>
+<br>
+<br>
+   <div class="container">
+       <div class=""row">
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 1</p></div>  <!--first box -->
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 2</p></div>  <!--second box -->
+           <div class="clearfix visible-sm-block"></div>               <!--fixes alignement for smaller devices -->
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 3</p></div>
+           <div class="clearfix visible-md-block"></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 4</p></div>
+           <div class="clearfix visible-sm-block"></div>
+           <div class="clearfix visible-lg-block"></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 5</p></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 6</p></div>
+           <div class="clearfix visible-sm-block"></div>
+           <div class="clearfix visible-md-block"></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 7</p></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 8</p></div>
+           <div class="clearfix visible-sm-block"></div>
+           <div class="clearfix visible-lg-block"></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 9</p></div>
+           <div class="clearfix visible-md-block"></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 10</p></div>
+           <div class="clearfix visible-sm-block"></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 11</p></div>
+           <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 12</p></div>
+       </div>
+   </div>
+
+   <p class="visible-lg" align="center">This Paragraph is shown on large screens</p>
+   <p class="hidden-sm" align="center">This paragraph is hidden on small devices</p>
+</body>
+</html>
