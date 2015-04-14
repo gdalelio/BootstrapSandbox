@@ -11,5 +11,5 @@ __Fixed__: The grid is setup with the columns desired and then when the screen i
 
 
 ##Examples Included
-+ Fixed Layout: Bootstrap-FixedLayout.html
-+ Responsive Layout:Bootstrap-Responsive-Layout.html
++ Fixed Layout      => Bootstrap-FixedLayout.html
++ Responsive Layout => Bootstrap-Responsive-Layout.html
